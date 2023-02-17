@@ -13,7 +13,7 @@ description = "Block rotater tool"
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://papermc.io/repo/repository/maven-public/") }
+    gradlePluginPortal()
 }
 
 dependencies {
