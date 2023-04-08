@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "lordpipe.terracottascrewdriver"
-version = "1.3.0"
+version = "1.4.0"
 description = "Block rotater tool"
 
 repositories {
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    paperDevBundle("1.19.3-R0.1-SNAPSHOT")
+    paperDevBundle("1.19.4-R0.1-SNAPSHOT")
 }
 
 java {
