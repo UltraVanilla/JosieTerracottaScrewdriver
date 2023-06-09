@@ -2,9 +2,9 @@ import net.minecrell.pluginyml.bukkit.BukkitPluginDescription
 
 plugins {
     `java-library`
-    id("io.papermc.paperweight.userdev") version "1.3.6"
-    id("xyz.jpenilla.run-paper") version "1.0.6"
-    id("net.minecrell.plugin-yml.bukkit") version "0.5.1"
+    id("io.papermc.paperweight.userdev") version "1.5.5"
+    id("xyz.jpenilla.run-paper") version "2.0.1"
+    id("net.minecrell.plugin-yml.bukkit") version "0.5.3"
 }
 
 group = "lordpipe.terracottascrewdriver"
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    paperDevBundle("1.19.4-R0.1-SNAPSHOT")
+    paperDevBundle("1.20-R0.1-SNAPSHOT")
 }
 
 java {
