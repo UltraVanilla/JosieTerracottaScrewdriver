@@ -20,7 +20,7 @@ import org.bukkit.block.data.Orientable;
 import org.bukkit.block.data.type.Chest;
 import org.bukkit.block.data.type.Piston;
 import org.bukkit.block.data.type.Slab;
-import org.bukkit.craftbukkit.v1_20_R1.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_20_R2.block.CraftBlock;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

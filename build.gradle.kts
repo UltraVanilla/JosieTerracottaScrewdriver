@@ -2,13 +2,13 @@ import net.minecrell.pluginyml.bukkit.BukkitPluginDescription
 
 plugins {
     `java-library`
-    id("io.papermc.paperweight.userdev") version "1.5.5"
-    id("xyz.jpenilla.run-paper") version "2.0.1"
-    id("net.minecrell.plugin-yml.bukkit") version "0.5.3"
+    id("io.papermc.paperweight.userdev") version "1.5.11"
+    id("xyz.jpenilla.run-paper") version "2.2.2"
+    id("net.minecrell.plugin-yml.bukkit") version "0.6.0"
 }
 
 group = "lordpipe.terracottascrewdriver"
-version = "1.5.0"
+version = "1.6.0"
 description = "Block rotater tool"
 
 repositories {
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    paperDevBundle("1.20-R0.1-SNAPSHOT")
+    paperDevBundle("1.20.2-R0.1-SNAPSHOT")
 }
 
 java {
