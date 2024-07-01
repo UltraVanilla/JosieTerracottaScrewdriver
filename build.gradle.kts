@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "lordpipe.terracottascrewdriver"
-version = "1.8.0"
+version = "1.9.0"
 description = "Block rotater tool"
 
 repositories {
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.20.6-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.21-R0.1-SNAPSHOT")
 }
 
 java {
@@ -41,6 +41,6 @@ tasks {
 bukkit {
     load = BukkitPluginDescription.PluginLoadOrder.STARTUP
     main = "lordpipe.terracottascrewdriver.TerracottaScrewdriver"
-    apiVersion = "1.20"
+    apiVersion = "1.21"
     authors = listOf("lordpipe")
 }
