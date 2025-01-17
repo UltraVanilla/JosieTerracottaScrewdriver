@@ -1,14 +1,12 @@
-import net.minecrell.pluginyml.bukkit.BukkitPluginDescription
-
 plugins {
     `java-library`
-    id("io.papermc.paperweight.userdev") version "1.7.1"
+    id("io.papermc.paperweight.userdev") version "2.0.0-beta.8"
     id("xyz.jpenilla.run-paper") version "2.3.0"
-    id("net.minecrell.plugin-yml.bukkit") version "0.6.0"
+    id("net.minecrell.plugin-yml.paper") version "0.6.0"
 }
 
 group = "lordpipe.terracottascrewdriver"
-version = "1.9.0"
+version = "1.12.0"
 description = "Block rotater tool"
 
 repositories {
@@ -17,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.21-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.21.4-R0.1-SNAPSHOT")
 }
 
 java {
@@ -38,9 +36,12 @@ tasks {
     }
 }
 
-bukkit {
-    load = BukkitPluginDescription.PluginLoadOrder.STARTUP
-    main = "lordpipe.terracottascrewdriver.TerracottaScrewdriver"
+paper {
+    authors = listOf("lordpipe", "JosieToolkit Contributors", "UltraVanilla Contributors")
+    website = "https://ultravanilla.world/"
+
+    main = "${project.group}.${project.name}"
     apiVersion = "1.21"
-    authors = listOf("lordpipe")
+
+    load = net.minecrell.pluginyml.bukkit.BukkitPluginDescription.PluginLoadOrder.STARTUP
 }
