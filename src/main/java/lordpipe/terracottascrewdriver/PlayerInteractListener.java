@@ -223,7 +223,7 @@ public class PlayerInteractListener implements Listener {
 
             BlockPos pos = craftBlock.getPosition();
 
-            LevelAccessor handle = craftBlock.getHandle();
+            LevelAccessor handle = craftBlock.getLevel();
 
             BlockPos.MutableBlockPos curPos = new BlockPos.MutableBlockPos();
             Direction[] aenumdirection = new Direction[] {
